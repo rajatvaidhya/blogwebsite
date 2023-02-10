@@ -1,0 +1,50 @@
+<%-include('partials/header')-%>
+
+
+    <section style="margin-top: 2rem;" class="compose">
+
+        
+
+
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5">
+                    <h1 style="text-align: center; font-size:4rem; font-family: 'Libre Baskerville', serif; font-weight: 700;">
+                        Compose
+                        the post!</h1>
+
+                        <img style="display:block; margin: auto;margin-top: 3rem;" src="/images/5bb2e531a22c7de0_856.png">
+                </div>
+
+                <div style="margin-top: 2rem;" class="col-md-7 col-lg-7">
+
+
+
+                    <form action="/compose" method="post" enctype="multipart/form-data">
+
+                        <div style="left:50%; margin:auto; width:70%;" class="form-group">
+                            <label style="margin-top:2rem; font-family: 'Poppins', sans-serif; ">Add Title : </label>
+                            <input style="font-family: 'Poppins', sans-serif; height:4.5rem" class="form-control" type="text" name="postTitle">
+                            <label style="margin-top:2rem; font-family: 'Poppins', sans-serif;">Add Description : </label>
+                            <textarea style="padding:1rem; font-family: 'Poppins', sans-serif;" class="form-control" name="postBody" cols="40" rows="5"></textarea>
+            
+                            <label style="margin-top: 2rem; font-family: 'Poppins', sans-serif;">Choose display picture :
+                            </label><br>
+                            <input style="font-family: 'Poppins', sans-serif; margin-top:1rem;" name="file" type="file"><br>
+            
+                            <button style="font-family: 'Poppins', sans-serif; margin-top: 1rem;" class="btn btn-primary" type="submit"
+                                name="button">Publish</button>
+                        </div>
+            
+                    </form>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
